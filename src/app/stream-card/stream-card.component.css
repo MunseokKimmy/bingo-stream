@@ -1,0 +1,129 @@
+.bg {
+  background-color: #0E0E10;  
+}
+.white {
+  color: #DBD4D4;
+}
+
+
+.square {
+  aspect-ratio: 1/ 1;
+  display: flex;
+  align-items: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px;
+}
+  
+.div1 {
+  grid-column: span 5 / span 5;
+}
+
+.div2 {
+  grid-row-start: 2;
+}
+
+.div3 {
+  grid-row-start: 2;
+}
+
+.div4 {
+  grid-row-start: 2;
+}
+
+.div5 {
+  grid-row-start: 2;
+}
+
+.div6 {
+  grid-row-start: 2;
+}
+
+
+.div8 {
+  grid-row-start: 3;
+}
+
+.div9 {
+  grid-row-start: 3;
+}
+
+.div10 {
+  grid-row-start: 3;
+}
+
+.div11 {
+  grid-row-start: 3;
+}
+
+
+.div13 {
+  grid-row-start: 4;
+}
+
+.div14 {
+  grid-row-start: 4;
+}
+
+.div15 {
+  grid-row-start: 4;
+}
+
+.div16 {
+  grid-row-start: 4;
+}
+
+
+.div18 {
+  grid-row-start: 5;
+}
+
+.div19 {
+  grid-row-start: 5;
+}
+
+.div20 {
+  grid-row-start: 5;
+}
+
+.div21 {
+  grid-row-start: 5;
+}
+
+
+.div23 {
+  grid-row-start: 6;
+}
+
+.div24 {
+  grid-row-start: 6;
+}
+
+.div25 {
+  grid-row-start: 6;
+}
+
+.div26 {
+  grid-row-start: 6;
+}
+      
+.width {
+  margin: 10%;
+} 
+
+@media screen and (min-width: 400px) {
+  .width {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .width {
+    width: 50%;
+  }
+
+}
