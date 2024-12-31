@@ -1,6 +1,9 @@
 .bg {
-  background-color: #0E0E10;  
+  background-color: #0E0E10; 
+  height: 100vh;
+  width: 100vw; 
 }
+
 .white {
   color: #DBD4D4;
 }
@@ -110,20 +113,35 @@
 .div26 {
   grid-row-start: 6;
 }
-      
-.width {
-  margin: 10%;
-} 
 
-@media screen and (min-width: 400px) {
+@media screen and (orientation: portrait) {
   .width {
-    width: 70%;
+    width: 100%;
+    padding: 1rem;
+  } 
+  .align-mid {
+    align-items: center;
+  }
+
+  .title-size {
+    font-size: 8vw;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (orientation: landscape) {
   .width {
-    width: 50%;
+    height: 100%;
+    padding: 1rem;
+
+  }
+  .align-mid {
+    align-items: start;
+  }
+  .title-size {
+    font-size: 5vh;
   }
 
+  .height {
+    height: 100%;
+  }
 }
