@@ -21,6 +21,24 @@
   grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px;
 }
+
+.common {
+  background-color: #747172;
+}
+
+.uncommon {
+  background-color: #448033;
+}
+
+.rare {
+  background-color: #3C3D7E;
+}
+
+.legendary {
+  background-color: #738608;
+}
+
+
   
 .div1 {
   grid-column: span 5 / span 5;
